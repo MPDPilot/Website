@@ -7,10 +7,9 @@ import s5 from "../assets/screenshots/s5.png";
 import s6 from "../assets/screenshots/s6.png";
 
 import Box from "@material-ui/core/Box";
-import Grid from "@material-ui/core/Grid";
-import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
+import { makeStyles } from "@material-ui/core/styles";
 
 const galleryImages = [
   {
@@ -69,31 +68,8 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: theme.spacing(8),
     paddingBottom: theme.spacing(8),
   },
-  galleryWrapper: {
-    display: "flex",
-    // flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    flexWrap: "nowrap",
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
-    transform: "translateZ(0)",
-  },
   galleryBox: {
     overflowX: "scroll",
-  },
-  card: {
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-  },
-  cardMedia: {
-    paddingTop: "56.25%", // 16:9
-  },
-  cardContent: {
-    flexGrow: 1,
   },
   galleryItem: {
     flexShrink: 0,

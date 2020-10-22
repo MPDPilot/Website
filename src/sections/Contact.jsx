@@ -1,16 +1,10 @@
 import React from "react";
 
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
-import { Link, ListItemIcon } from "@material-ui/core";
-import CheckIcon from "@material-ui/icons/Check";
-import data from "../data";
+import Link from "@material-ui/core/Link";
 
 function Contact() {
   const classes = useStyles();
@@ -45,9 +39,6 @@ const useStyles = makeStyles((theme) => ({
   mainGrid: {
     paddingTop: theme.spacing(8),
     paddingBottom: theme.spacing(8),
-  },
-  versionNumber: {
-    paddingTop: theme.spacing(2),
   },
 }));
 
