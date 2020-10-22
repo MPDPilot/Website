@@ -3,11 +3,12 @@ const data = {
     {
       number: "1.0.0",
       features: [
-        "Bacon ipsum dolor amet t-bone tenderloin pork loin brisket,",
-        "pork belly ball tip meatloaf sausage fatback landjaeger corned beef tri-tip shoulder",
-        "Prosciutto pork loin filet mignon tenderloin spare ribs boudin pork chop pancetta biltong andouille salami short ribs jerky beef ribs t-bone.",
-        "Chuck shankle chislic",
-        "Tongue andouille pork cupim picanha.",
+        "Control your server playback, manage volume and shuffle and repeat flags",
+        "Select current outputs",
+        "Add, move and remove items from the current queue",
+        "Browse files library and enqueue songs, folders or stored playlists",
+        "Password-protected connections support",
+        "Intuitive UI supporting both light- and dark mode"
       ],
     },
   ],
