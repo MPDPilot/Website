@@ -9,11 +9,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import mpdPilotLogoTransparent from "../assets/mpdPilotLogoTransparent.png";
 import appStoreBadge from "../assets/appStoreBadge.svg";
 
-function Hero() {
+function Hero({ small = false }) {
   const classes = useStyles();
   return (
     <React.Fragment>
-      <div className={classes.heroContent}>
+      <div
+        className={classes.heroContent}
+        style={{ height: small ? "auto" : "calc(100vh - 100px)" }}
+      >
         <Container maxWidth="sm">
           <Box
             display="flex"
@@ -69,9 +72,8 @@ const useStyles = makeStyles((theme) => ({
     background:
       "linear-gradient(0deg, rgba(13,113,254,1) 0%, rgba(88,168,255,1) 100%)",
     padding: theme.spacing(10, 0, 10),
-    height: 'calc(100vh - 100px)',
-    display: 'flex',
-    alignItems: 'center'
+    display: "flex",
+    alignItems: "center",
   },
   heroRow: {
     marginBottom: theme.spacing(6),
