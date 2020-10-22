@@ -11,7 +11,14 @@ import Typography from "@material-ui/core/Typography";
 import CheckIcon from "@material-ui/icons/Check";
 import { makeStyles } from "@material-ui/core/styles";
 
-import data from "../data";
+const features = [
+  "Control your server playback, manage volume and shuffle and repeat flags",
+  "Switch on and off your MPD outputs",
+  "Add, move and remove items from the current queue",
+  "Browse files library and enqueue songs, folders or stored playlists",
+  "Password-protected connections support",
+  "Intuitive UI supporting both light and dark mode",
+];
 
 function Features() {
   const classes = useStyles();
@@ -22,20 +29,19 @@ function Features() {
           Features
         </Typography>
         <Grid container spacing={4}>
-          <Grid item sm={3} xs={12}>
+          <Grid item sm={4} xs={12}>
             <Typography
-              component="h3"
-              variant="h5"
-              align="center"
-              color="secondary"
+              component="p"
+              variant="h6"
               className={classes.versionNumber}
+              align="center"
             >
-              V {data.versions[0].number}
+              MPD Pilot is a simple MPD client for iOS.
             </Typography>
           </Grid>
-          <Grid item sm={9} xs={12}>
+          <Grid item sm={8} xs={12}>
             <List aria-label="application features">
-              {data.versions[0].features.map((feature) => (
+              {features.map((feature) => (
                 <ListItem>
                   <ListItemIcon>
                     <CheckIcon color="secondary" />
