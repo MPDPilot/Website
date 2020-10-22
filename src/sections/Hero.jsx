@@ -69,6 +69,9 @@ const useStyles = makeStyles((theme) => ({
     background:
       "linear-gradient(0deg, rgba(13,113,254,1) 0%, rgba(88,168,255,1) 100%)",
     padding: theme.spacing(10, 0, 10),
+    height: 'calc(100vh - 100px)',
+    display: 'flex',
+    alignItems: 'center'
   },
   heroRow: {
     marginBottom: theme.spacing(6),
