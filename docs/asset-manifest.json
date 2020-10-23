@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.c0cce184.chunk.js",
-    "main.js.map": "/static/js/main.c0cce184.chunk.js.map",
+    "main.js": "/static/js/main.e0f9129b.chunk.js",
+    "main.js.map": "/static/js/main.e0f9129b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00abe04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.00abe04e.js.map",
     "static/js/2.cce42362.chunk.js": "/static/js/2.cce42362.chunk.js",
     "static/js/2.cce42362.chunk.js.map": "/static/js/2.cce42362.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ab8ec6fc1ce28a81d30886542f5028b8.js": "/precache-manifest.ab8ec6fc1ce28a81d30886542f5028b8.js",
+    "precache-manifest.bd7136a5bc35a18b71b4e2bd7b4b62be.js": "/precache-manifest.bd7136a5bc35a18b71b4e2bd7b4b62be.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.cce42362.chunk.js.LICENSE.txt": "/static/js/2.cce42362.chunk.js.LICENSE.txt",
     "static/media/appStoreBadge.svg": "/static/media/appStoreBadge.0f3514a4.svg",
@@ -21,6 +21,6 @@
   "entrypoints": [
     "static/js/runtime-main.00abe04e.js",
     "static/js/2.cce42362.chunk.js",
-    "static/js/main.c0cce184.chunk.js"
+    "static/js/main.e0f9129b.chunk.js"
   ]
 }

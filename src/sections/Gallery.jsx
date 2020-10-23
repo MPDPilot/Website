@@ -78,6 +78,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "300px",
     height: "auto",
     paddingRight: theme.spacing(1),
+    alignSelf: "flex-start"
   },
 }));
 
