@@ -50,7 +50,11 @@ function Hero({ small = false }) {
           </Typography>
           <Grid container justify="center">
             <Grid item>
-              <Link href="#">
+              <Link
+                href="https://apps.apple.com/us/app/mpd-pilot/id1536331909"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={appStoreBadge} alt="App Store download button" />
               </Link>
             </Grid>
